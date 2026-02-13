@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="style.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <main class="flex justify-center items-center font-sans flex-col min-h-screen animation-fadeinup">
+        <section class="panel border-2 w-[30vw] h-[50vh] rounded-[30px] overflow-hidden">
+            <div class="title_window flex justify-center border-b  h-[20vh] items-center text-7xl font-bold">
+                <h2>Login</h2>
+            </div>
+
+            <!-- Zaraz tu cos napisze-->
+
+            <div class="input_labels flex justify-center items-center p-5">
+                <label>
+                    <input class="input-log border-2 rounded-xl w-[20vw] rounded-[60px] text-xl p-2 font-mono" placeholder="enter your login" />
+                </label>
+            </div>
+
+            <div class="input_labels flex justify-center items-center p-10">
+                <label>
+                    <input type="password" class="input-pass border-2 rounded-xl w-[20vw] rounded-[60px] text-xl p-2 font-mono" placeholder="enter your password" />
+                </label>
+            </div>
+
+            <div class="input-btn justify-center flex animation-slide" role="button" tabindex="0">
+                <div class="input-btn-content w-[8vw] p-4 border-2 justify-center flex rounded-xl select-none active:scale-95" role="button" tabindex="0">
+                    <p>Login</p>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

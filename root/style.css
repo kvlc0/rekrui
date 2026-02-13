@@ -1,0 +1,29 @@
+@keyframes slide {
+    from{
+        opacity:0;
+        transform:translateY(250px);
+    }
+    to {
+        opacity:1;
+        transform:translateX(0px)
+    }
+}
+
+@keyframes fadeinup {
+    from{
+        opacity:0;
+        transform:translateY(20px)
+    }
+    to {
+        opacity:1;
+        transform:transalteY(0px)
+    }
+}
+
+.animation-slide{
+    animation:slide 4s ease-in-out forwards;
+}
+
+.animation-fadeinup{
+    animation:fadeinup 2s ease-in-out forwards;
+}
