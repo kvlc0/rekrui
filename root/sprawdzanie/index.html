@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="bg-[#000000] text-white flex select-none cursor-crosshair">
+    <main class="flex justify-center">
+
+        <div class="push-element min-w-screen flex justify-center p-20 hidden">
+            <div class="push-container border-2 w-[10vw] p-2 rounded-[50px] justify-center flex">
+                <div class="push-content">
+                    <p>📃 Copied to clipboard!</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <aside class="flex flex-col font-mono select-none h-screen  animation-slide">
+            <div class="aside-content flex flex-col gap-2 p-10 max-w-0">
+                <div class="title-bar text-xl p-4">
+                    <p>Pikomc.pl assets</p>
+                </div>
+
+                <br>
+                <br>
+
+                <div class="btn cursor-pointer hover:text-blue-300 transition-all duration-500 p-4">
+
+                    <p class="active:scale-95" id="taryfikator">Taryfikator</p>
+
+                </div>
+
+                <div class="btn cursor-pointer hover:text-blue-300 transition-all duration-500 p-4">
+                    <p class="active:scale-95">Sprawdzanie</p>
+                </div>
+
+                <div class="btn cursor-pointer hover:text-blue-300 transition-all duration-500 p-4">
+                    <p class="active:scale-95">info</p>
+                </div>
+            </div>
+        </aside>
+        
+        <section class="zawartosc flex justify-center items-center min-h-screen min-w-screen font-mono">
+            <div class="container w-[40vw] h-[60vh] rounded-[75px]">
+                <div class="content p-10">
+                    <div class="content-title justify-center flex">
+                        <h1 class="text-5xl"><b>Disclaimer!</b></h1>
+                    </div>
+
+                    <div class="rules text-xl p-10">
+                        <ol>
+                            <li><b>1.</b> Informacje znajdujące się na tej stronie są w celach edukacyjnych, nie odpowiadamy za wszelkie szkody wywołane
+                            przez naszą stronę.</li>
+
+                            <li><b>2.</b> Nie zapewniamy, że informacje na tej stronie są prawdziwe, może zdarzyć się tak, że pewnie informacje są 
+                            już nieaktualne — nie odpowiadamy za to.</li>
+
+                            <li><b>3.</b> Wchodząc na tą stronę i czerpiąc z niej informacje zgadzasz się z naszymi zasadami</li>
+
+                            <li><b>4.</b> W razie jakichkolwiek błędów, problemów prosimy o <b>nie zgłaszanie</b> ich.</li>
+
+
+                        </ol>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="taryfikator-container flex justify-center items-center min-h-screen min-w-screen font-mono hidden p-20">
+            <div class="container2 w-[60vw] h-[475vh] rounded-[70px]">
+                <div class="content p-10">
+                    <div class="content-title justify-center flex">
+                        <h1 class="text-5xl"><b>Taryfikator</b></h1>
+                    </div>
+
+                    <div class="rules text-xl p-10">
+                        <pre>
+<center>Taryfikator PikoMC.pl</center>
+
+
+<center>WYCISZENIA (MUTE)</center>
+
+1. Upublicznianie danych osobowych
+
+▫️  3 dni
+
+2. Wyśmiewanie wiadomości prywatnych/ogólnych
+
+▫️ 30 minut
+
+3. Obraza pod przykrywką
+
+▫️ 15–30 minut
+
+4. Obraza gracza/administratora
+
+▫️15 minut – 2 godziny
+
+5. Spam (4+ wiadomości)
+
+▫️ 15 minut +10 minut za każdą dodatkową wiadomość
+
+6. Flood
+
+▫️ 15 minut
+
+7. Przeklinanie / wulgaryzmy
+
+▫️ 10–15 minut
+
+8. Obrażanie skrótami
+
+▫️ 15 minut
+
+9. Życzenie śmierci
+
+▫️ 1d
+
+10. Groźby
+
+▫️ 30 minut – 1 godzina
+
+11. Rasizm, homofobia, seksizm, ksenofobia, nazizm itp.
+
+▫️5 godziny
+
+12. Prowokacja / rage bait
+
+▫️15–20 minut (dla każdej ze stron)
+
+13. Celowe wywoływanie spamu (np. „jutro spamimy gb”)
+
+▫️ 1–2 godziny
+
+14. Celowe wprowadzanie graczy w błąd
+
+▫️30 minut
+
+15. Reklamowanie treści niezwiązanych z serwerem
+
+▫️ 3 godziny
+
+16. Podejrzane linki (np. skracacze, podejrzane domeny)
+
+▫️ 30 minut – 1 godzina
+
+17. Nadużywanie CAPS LOCKA (cała wiadomość)
+
+▫️ 5–15 minut +10 minut za każdą dodatkową linijkę
+
+17. Podszywanie się pod administrację
+
+▫️ 5 godziny
+
+<center>BANY I KICKI</center>
+
+1. Cheatowanie / wspomagacze
+
+▫️ Ban: 14 dni
+
+2. Przyznanie się do cheatów podczas sprawdzania
+
+▫️Ban: 7 dni (nadawany automatycznie)
+ *Nie można skrócić przez fanarta*
+
+3. Używanie makr, autoclickerów, skryptów itd.
+
+▫️Ban: 3 dni
+
+4. Wykorzystywanie błędów serwera / exploitów
+
+▫️ Ban: 3–7 dni (decyzja <@&1289336644561928203> lub Admin+)
+
+5. Nielegalne trapy (np. bez oznaczenia)
+
+▫️ Ban: 1 dzień (przy pierwszym wykroczeniu możliwy kick/zwrócenie uwagi)
+
+6. Wulgarna nazwa, skin, peleryna, kosmetyk
+
+▫️ Kick (pierwsze ostrzeżenie)
+▫️ Ban: perm (do momentu zmiany)
+
+7. Reklama innych serwerów Minecraft
+
+▫️ Ban: 1–3 dni + mute 3 dni (boty itp. perm)
+
+8. Multikonta (więcej niż 2 konta)
+
+▫️ Ban: perm, nadmierne tworzenie mk=kara na głównym koncie 3d
+
+9. Groźby życia lub zdrowia wobec graczy
+
+▫️ Ban: 1 dzień
+
+10. Ukrywanie osoby łamiącej regulamin
+
+▫️Ban: 7–14 dni (np. niezgłoszenie cheatera)
+
+11. Omijanie kary (np. VPN, alt)
+
+▫️Ban: 15–30 dni
+
+12. Okłamywanie administracji (np. na sprawdzaniu)
+
+▫️Ban: 7–15 dni
+
+13. Handel za waluty realne lub spoza serwera
+
+▫️1h/perm godziny
+Nawet jeżeli gracz pisze to w "żartach"
+
+14. Fałszywe zgłoszenia / spam na /helpop
+
+▫️30 minut – 1 godzina
+                        </pre>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+
+    <script src="index.js"></script>
+</body>
