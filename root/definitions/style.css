@@ -29,3 +29,36 @@
 main {
     animation:fadeindown 1s ease-in-out forwards;
 }
+
+.questions-box{
+    border: 3px solid hsl(0, 0%, 100%, 0.3);
+    color:white;
+    backdrop-filter:blur(2px);
+    box-shadow: inset 0 -40px 150px 0 rgba(255, 255, 255, 0.3);
+
+}
+
+.btn-rollover{
+    border: 3px solid hsl(0, 0%, 100%, 0.3);
+    color:white;
+    backdrop-filter:blur(2px);
+    box-shadow: inset 0 -40px 150px 0 rgba(255, 255, 255, 0.3);
+    padding:20px;
+    font-family:Helvetica;
+}
+
+.btn-rollover:hover{
+    border: 3px solid hsl(0, 0%, 100%, 0.2);
+    color:white;
+    backdrop-filter:blur(2px);
+    box-shadow: inset 0 -40px 150px 0 rgba(255, 255, 255, 0.2);
+    font-family:Helvetica;
+}
+
+.questions-box:hover{
+    border: 3px solid hsl(0, 0%, 100%, 0.2);
+    color:white;
+    backdrop-filter:blur(2px);
+    box-shadow: inset 0 -40px 150px 0 rgba(255, 255, 255, 0.2);
+    font-family:Helvetica;
+}

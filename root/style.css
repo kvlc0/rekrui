@@ -21,9 +21,21 @@
 }
 
 .animation-slide{
-    animation:slide 4s ease-in-out forwards;
+    animation:slide 2s ease-in-out forwards;
 }
 
 .animation-fadeinup{
-    animation:fadeinup 2s ease-in-out forwards;
+    animation:fadeinup 1s ease-in-out forwards;
+}
+.panel {
+    border: 3px solid hsl(0, 0%, 100%, 0.3);
+    color:white;
+    backdrop-filter:blur(2px);
+    box-shadow: inset 0 -40px 150px 0 rgba(255, 255, 255, 0.2);
+    padding:20px;
+    font-family:Helvetica;
+}
+
+*:focus{
+    outline:none;
 }

@@ -10,21 +10,33 @@
 </head>
 <body class="bg-black text-white m-0 flex h-screen w-screen justify-center overflow-hidden select-none ">
     <main>
+        <section class="updateLogs flex absolute text-2xl p-2 flex-col gap-1 font-mono hidden">
+            <p class="pb-5"> <span class="text-green-500 ">$ > </span>Update Logs</p>
+            <p> [<span class="text-green-500">*</span>] Nowy interfejs</p>
+            <p> [<span class="text-orange-500 ">/</span>] Zmieniono sposób walidacji</p>
+            <p> [<span class="text-orange-500">/</span>] Optymalizacja kodu</p>
+            <p> [<span class="text-red-500">-</span>] Brak wsparcia dla telefonów</p>
+            <p> [<span class="text-red-500">-</span>] Usunięto zbędne zakładki w /sprawdzanie </p>
+
+
+        </section>
+
+
         <section class="title-bar flex justify-center p-4 font-mono text-[5vh] text-shadow ">
             <h3 id="Docs">Docs</h3>
         </section>
 
         <section class="animate-fade-up flex justify-center h-screen w-screen items-center">
-            <div class="block border-2 border-white box-border w-128 h-[50vh] justify-center flex items-center shadow-[0_0px_50px_0px_rgba(255,255,255,0.5)] rounded-[10vh]">
+            <div class="boxof block box-border w-128 h-[50vh] justify-center flex items-center shadow-[0_0px_50px_0px_rgba(255,255,255,0.5)] rounded-[10vh]">
                 <div class="content flex flex-col gap-8">
                     <a href="../definitions/index.html">
-                        <div class="btn delay-200 border-white border-2 box-border justify-center center flex items-center p-5 w-[20vw] h-[8vh] hover:bg-white hover:text-black hover:border-black transition-all duration-500 ease-in-out hover:scale-110 rounded-[40px] shadow-[0_0px_20px_0px_rgba(255,255,255,0.5)]">                           
+                        <div class="btn delay-200 box-border justify-center center flex items-center p-5 w-[20vw] h-[8vh] transition-all duration-500 ease-in-out hover:scale-110 rounded-[40px]">
                             <p class="text-2xl select-none"> Rekrutacja </p>
                         </div>
                     </a>
 
                     <a href="../sprawdzanie/index.html">
-                        <div class="btn border-white border-2 box-border justify-center center flex items-center p-5 w-[20vw] h-[8vh] hover:bg-white hover:text-black hover:border-black transition-all duration-500 ease-in-out hover:scale-110 rounded-[40px] shadow-[0_0px_20px_0px_rgba(255,255,255,0.5)]"> 
+                        <div class="btn box-border justify-center center flex items-center p-5 w-[20vw] h-[8vh] transition-all duration-500 ease-in-out hover:scale-110 rounded-[40px]"> 
                             <p class="text-2xl select-none"> Sprawdzanie </p>
                         </div>
                     </a>
