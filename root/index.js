@@ -1,13 +1,13 @@
+import { passwrdList } from './data.js';
 
 const loginInput = document.querySelector(".input-log");
 const passwordInput = document.querySelector(".input-pass");
 const inputBtn = document.querySelector(".input-btn-content"); 
 
 inputBtn.addEventListener("click", () => {
-    const isMainAdmin = (loginInput.value === "szesnastka" && passwordInput.value === "nanomc");
-    const isCorrectPass = (loginInput.value === "rv" && passwordInput.value === "rv");
+    const Validation = passwrdList.some(x => x.Pass === passwordInput.value && x.Login === loginInput.value)
 
-    if (isMainAdmin || isCorrectPass) {
+    if (Validation) {
         window.location.href = "main/index.html";
     } else if (loginInput.value === "" || passwordInput.value === "") {
         alert("Wpisz swój login oraz hasło!");
