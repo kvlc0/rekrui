@@ -1,15 +1,18 @@
 import Render from "./main";
-
-let page = location.hash;
-let test: string = "test";
+import LoginApp from "./components/login/LoginApp";
 
 function Router() {
+  let page = location.hash;
+  let test: string = "test";
+  let login = LoginApp();
+
   if (page === "#home") {
-    Render(test);
+    Render(login);
   } else if (page === "#test") {
     Render(test);
   } else {
-    Render(test);
+    location.href = "#login";
+    Render(login);
   }
 }
 
