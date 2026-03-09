@@ -12,6 +12,7 @@ function Walidacja(): void {
     Router();
   } else {
     console.log("error!, repeat!");
+    alert("Stop!");
   }
 }
 

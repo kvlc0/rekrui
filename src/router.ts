@@ -1,5 +1,6 @@
 import Render from "./main";
 import LoginApp from "./components/login/LoginApp";
+import Walidacja from "./components/login/walidacja";
 
 function Router() {
   let page = location.hash;
@@ -8,11 +9,12 @@ function Router() {
 
   if (page === "#home") {
     Render(login);
+    document.querySelector(".button-1")?.addEventListener("click", Walidacja);
   } else if (page === "#test") {
     Render(test);
   } else {
-    location.href = "#login";
     Render(login);
+    document.querySelector(".button-1")?.addEventListener("click", Walidacja);
   }
 }
 
