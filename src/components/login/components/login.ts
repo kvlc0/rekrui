@@ -1,8 +1,4 @@
-import Walidacja from "../walidacja";
-
 function Login(): string {
-  const enterV = Walidacja;
-
   return `
     <div class="container flex flex-row justify-center mx-auto items-center min-w-screen">
       <div class="flex h-full w-full bg-white justify-center items-center">
