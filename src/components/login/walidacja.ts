@@ -8,7 +8,7 @@ function Walidacja(): void {
     document.querySelector<HTMLInputElement>(".passInput")?.value;
 
   if (loginInput === Login[0].Login && passInput === Login[0].Pass) {
-    location.href = "#login";
+    location.href = "#home";
     Router();
   } else {
     console.log("error!, repeat!");

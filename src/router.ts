@@ -1,14 +1,16 @@
 import Render from "./main";
 import LoginApp from "./components/login/LoginApp";
 import Walidacja from "./components/login/walidacja";
+import HomeApp from "./components/home/HomeApp";
 
 function Router() {
   let page = location.hash;
   let test: string = "test";
   let login = LoginApp();
+  let home = HomeApp();
 
   if (page === "#home") {
-    Render(login);
+    Render(home);
     document.querySelector(".button-1")?.addEventListener("click", Walidacja);
   } else if (page === "#test") {
     Render(test);
