@@ -1,0 +1,14 @@
+.content:has(p) {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+span {
+    text-shadow: 0 0 20px;
+    user-select: none;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}

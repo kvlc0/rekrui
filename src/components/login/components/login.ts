@@ -23,6 +23,7 @@ function Login(): string {
           <img
             src="/16025331.png"
             draggable="false"
+            alt="Icon"
           />
         </div>
       </div>
