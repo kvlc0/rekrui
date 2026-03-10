@@ -12,10 +12,7 @@ function Router() {
   if (page === "#home") {
     Render(home);
     document.querySelector(".button-1")?.addEventListener("click", Walidacja);
-  } else if (page === "#test") {
-    Render(test);
-  } else if (page === "#wprowadzenie") {
-    location.href = "#wprowadzenie";
+  } else if (page.startsWith("#")) {
     Render(home);
   } else {
     Render(login);
