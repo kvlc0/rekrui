@@ -14,6 +14,9 @@ function Router() {
     document.querySelector(".button-1")?.addEventListener("click", Walidacja);
   } else if (page === "#test") {
     Render(test);
+  } else if (page === "#wprowadzenie") {
+    location.href = "#wprowadzenie";
+    Render(home);
   } else {
     Render(login);
     document.querySelector(".button-1")?.addEventListener("click", Walidacja);
