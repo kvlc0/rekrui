@@ -3,8 +3,8 @@ import "./style.css";
 function Content(): string {
   return `
   <div class="contentContainer w-[50vw] h-auto p-10">
-    <div class="content">
-      <section id="wprowadzenie" class="flex flex-col">
+    <div class="content flex flex-col gap-20">
+      <section id="wprowadzenie" class="flex flex-col gap-10">
         <header class="pb-10 border-l-4 border-blue-700 h-[5px] pl-[20px]">
           <h1 class="font-bold text-4xl "> <span>👋</span> Wprowadzenie </h1>
         </header>
@@ -28,41 +28,38 @@ function Content(): string {
           <br />
 
           <b>Zalecam</b> czytanie każdych kroków uważnie.
-          <br />
-          <br />
-          <br />
-          <br />
 
 
         </p>
 
-        <div class="pb-10 border-l-4 border-blue-700 h-[5px] pl-[20px]">
-          <h1 class="font-bold text-4xl "> <span>👋</span> Wprowadzenie </h1>
-        </div>
+          <section id="spis" class="flex flex-col">
+            <header class="pb-10 h-[5px]">
+              <h1 class="font-bold text-4xl "> <span>☁️</span> Spis treści </h1>
+            </header>
 
-        <br />
-        <br />
-        <br />
-        <br />
-
+            <br />
+            <br />
+            <div class="rest border-l-4 pl-[20px]">
+              <ul class="text-2xl select-none flex flex-col gap-5">
+                <li class="font-bold hover:scale-98 transition-all duration-500 cursor-pointer"> <a href="#wprowadzenie"> <span>👋</span> Wprowadzenie </a><span class="text-green-500">(Jesteś tutaj!)</span> </li>
+                <li class="font-bold hover:scale-98 transition-all duration-500 cursor-pointer"> <span>🔒</span> Sprawdzanie wstępne </li>
+                <li class="font-bold hover:scale-98 transition-all duration-500 cursor-pointer"> <span>📂</span> Eksplorator plików </li>
+                <li class="font-bold hover:scale-98 transition-all duration-500 cursor-pointer"> <span>🌿</span> Dziennik Minecrafta </li>
+              </ul>
+            </div>
+          </section>
         </section>
 
-        <section id="spis" class="flex flex-col">
-          <header class="pb-10 h-[5px]">
-            <h1 class="font-bold text-4xl "> <span>☁️</span> Spis treści </h1>
-          </header>
+        <hr />
 
-          <br />
-          <br />
-          <div class="rest border-l-4 pl-[20px]">
-            <ul class="text-2xl select-none flex flex-col gap-5">
-              <li class="font-bold hover:scale-98 transition-all duration-500 cursor-pointer"> <span>👋</span> Wprowadzenie <span class="text-green-500">(Jesteś tutaj!)</span> </li>
-              <li class="font-bold hover:scale-98 transition-all duration-500 cursor-pointer"> <span>🔒</span> Sprawdzanie wstępne </li>
-              <li class="font-bold hover:scale-98 transition-all duration-500 cursor-pointer"> <span>📂</span> Eksplorator plików </li>
-              <li class="font-bold hover:scale-98 transition-all duration-500 cursor-pointer"> <span>🌿</span> Dziennik Minecrafta </li>
-            </ul>
-          </div>
-      </section>
+        <section id="sprawdzanie-wstepne">
+          <header class="pb-10 h-[5px]">
+            <h1 class="font-bold text-4xl "> <span>🔒</span> Sprawdzanie wstępne </h1>
+          </header>
+        </section>
+
+
+
     </div>
   </div>
   `;

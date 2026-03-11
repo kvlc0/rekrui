@@ -9,7 +9,7 @@ function HomeApp(): string {
 
   return `
     <div class="pageElements flex flex-col min-h-screen">
-      <div class="pageHeader flex justify-center">
+      <div class="pageHeader flex justify-center pt-2 pb-10">
         ${head}
       </div>
 

@@ -31,3 +31,8 @@
 *:focus {
     outline: none;
 }
+
+hr {
+    background-color: black;
+    color: black;
+}
