@@ -1,5 +1,5 @@
 .content:has(p) {
-    font-size: 20px;
+    font-size: 18px;
     font-family: Helvetica, sans-serif;
 }
 
@@ -8,7 +8,61 @@ span {
     user-select: none;
 }
 
+body.dark-mode span {
+    text-shadow: 0 0 10px black;
+    user-select: none;
+}
+
 a {
     color: inherit; /* blue colors for links too */
     text-decoration: inherit; /* no underline */
+}
+
+hr {
+    border: 2px black solid;
+}
+
+body.dark-mode hr {
+    border: 2px white solid;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+/* ============================================================== */
+
+@keyframes slideLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes showUp {
+    from {
+        opacity: 1;
+        transform: size(90);
+    }
+    to {
+        opacity: 1;
+        transform: size(100);
+    }
+}
+
+.animate-slide-l {
+    animation: slideLeft 3s ease-in-out forwards;
+}
+
+.animate-show {
+    transition: width 2s ease-in-out;
+    animation: showUp 3s ease-in-out forwards;
 }

@@ -6,7 +6,6 @@ function HomeApp(): string {
   const head = Header();
   const side = Sidebar();
   const content = Content();
-
   return `
     <div class="pageElements flex flex-col min-h-screen">
       <div class="pageHeader flex justify-center pt-2 pb-10">
