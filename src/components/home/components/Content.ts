@@ -72,7 +72,24 @@ function Content(): string {
 
               <ul>
                 <li> <b>></b> Potencjalny HUD cheata </li>
+                <li> <b>></b> Możliwe anomalie Scoreboarda ( <i>zaokrąglenie kiedy gracz nie ma clienta, custom czcionka </i> ) </li>
+                <li> <b>></b> Ostatnia wiadomość na chatcie od cheata ( <i> możliwe, że gracz wyłączał huda i pojawiła się o tym informacja na chatcie </i> ) </li>
               <ul>
+
+              <br />
+              <br />
+
+              Teraz będziemy sprawdzać ustawienia gracza, zaczniemy od następujących kroków:
+              <br />
+              <br />
+
+              <ul>
+                <li> <b>1.</b> Prosimy aby gracz otworzył menu Minecrafta</li>
+                <li> <b>2.</b> Sprawdzamy statystyki gracza, w celu wykrycia cheata pod nazwą "wurst", który ma swoją opcje wyłączenia w dolnych rogach ekranu ( nazwa tej zakładki może się objawiać jako np. "statistics" i może byc w dolnym rogu ekranu ) </li>
+                <li> <b>3.</b> Następnie prosimy gracza aby wszedł w ustawienia => controls => przypisane klawisze (keybinds) => ustawienia myszy (mouse settings) i sprawdzamy czy gracz nie ma tam opcji wyłączającej cheata</li>
+                <li> <b>4.</b> Jeżeli poprzedni krok nic nie wykrył to w tej samej sekcji => przpisane klawisze (keybinds) i prosimy gracza aby powoli scrollował w dół — w ten sposób wykryjemy czy nie ma tam podejrzanego bindu włączającego cheaty </li>
+                <li> <b>5.</b> Jeżeli poprzednie kroki ostatecznie nic nie wykryły to płynnie możemy przejść do następnej sekcji prosząc gracza aby wszedł w <br /><span class=" p-2 border-2 text-[#5a749e] rounded-[20px]">ustawienia => paczki zasobów (resource packs) => otwórz folder z paczkami</span>
+              </ul>
             </p>
 
           </div>
