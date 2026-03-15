@@ -1,3 +1,7 @@
+* {
+    font-smooth: always;
+}
+
 .content:has(p) {
     font-size: 18px;
     font-family: Helvetica, sans-serif;
@@ -5,12 +9,11 @@
 }
 
 span {
-    text-shadow: 0 0 10px;
     user-select: none;
 }
 
 body.dark-mode span {
-    text-shadow: 0 0 10px black;
+    font-weight: bold;
     user-select: none;
 }
 
