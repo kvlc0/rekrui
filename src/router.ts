@@ -1,8 +1,10 @@
 import Render from "./main";
-import LoginApp from "./components/login/LoginApp";
 import Walidacja from "./components/login/walidacja";
-import HomeApp from "./components/home/HomeApp";
-import { cAdd } from "./utils/utils";
+import("./style.css");
+
+const { default: LoginApp } = await import("./components/login/LoginApp");
+const { default: HomeApp } = await import("./components/home/HomeApp");
+const { cAdd } = await import("./utils/utils");
 
 function Router() {
   let page = location.hash;

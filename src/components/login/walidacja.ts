@@ -1,5 +1,6 @@
-import { Login } from "./data/loginData";
 import Router from "../../router";
+
+const { Login } = await import("./data/loginData");
 
 function Walidacja(): void {
   const loginInput =

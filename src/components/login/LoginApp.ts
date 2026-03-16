@@ -1,5 +1,5 @@
 import Header from "./components/Header.ts";
-import Login from "./components/login.ts";
+const { default: Login } = await import("./components/login");
 
 function LoginApp(): string {
   const head = Header();
