@@ -1,9 +1,9 @@
 import "./style.css";
 
 function Sidebar(): string {
-  return `
+  return /*html*/ `
   <div class="sidebarContainer fixed animate-slide-l">
-    <div class="sidebarContent flex flex-col gap-10">
+    <div class="sidebarContent md:flex hidden flex-col gap-10">
       <h1 class="animate-pulse font-bold text-3xl"> Sprawdzanie </h1>
         <div class="text-list">
           <ul class=" gap-5 flex flex-col text-xl">
